@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Devfolio - A software engineer portfolio</title>
+    <meta name="title" content="Devfolio - A software engineer portfolio" />
+    <meta
+      name="description"
+      content="This is a personal portfolio made by Coding amisha"
+    />
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="favicon.svg" />
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500&family=Open+Sans:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- material icon link -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+
+    <!-- custom css link -->
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <!-- Boxicon link -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+  </head>
+  <body>
+    <!-- Top Bar -->
+    <header class="topbar">
+      <a href="#" class="logo">
+        <img
+          width="145"
+          height="32"
+          src="/assets/Logo_dark.png"
+          alt="logo"
+          class="dark"
+        />
+
+        <img
+          width="145"
+          height="32"
+          src="/assets/Logo_light.png"
+          alt="logo"
+          class="light"
+        />
+      </a>
+
+      <button class="icon-btn theme-btn" data-theme-btn>
+        <span class="material-symbols-outlined dark" aria-hidden="true">
+          dark_mode
+        </span>
+        <span class="material-symbols-outlined light" aria-hidden="true">
+          light_mode
+        </span>
+
+        <div class="state-layer"></div>
+      </button>
+    </header>
+
+    <!-- Main -->
+    <main>
+      <article>
+        <!-- Hero -->
+        <section class="section hero">
+          <div class="container">
+            <figure
+              class="hero-banner img-holder"
+              style="--width: 240; --height: 240"
+            >
+              <img
+                width="240"
+                height="240"
+                src="/assets/profile.png"
+                alt="Amisha"
+                class="img-cover"
+              />
+            </figure>
+
+            <div class="hero-content">
+              <span class="label-large section-subtitle"
+                >Software Engineer...</span
+              >
+
+              <h1 class="display-small">Amisha Verma</h1>
+
+              <p class="body-large section-text">
+                B.Tech ( Information Technology) Java Developer, SRMCEM LUCKNOW 
+                AKTU University, Home Town, Ayodhya  .
+              </p>
+
+              <div class="btn-wrapper">
+                <a href="mailto:amishaverma620@gmail.com" class="chip">
+                  <span class="material-symbols-outlined" aria-hidden="true">
+                    mail
+                  </span>
+                  <span class="label-large">amishaverma620@gmail.com</span>
+
+                  <div class="state-layer"></div>
+                </a>
+
+                <a href="tel:+918810952911" class="chip">
+                  <span class="material-symbols-outlined" aria-hidden="true">
+                    call
+                  </span>
+                  <span class="label-large">+918810952911</span>
+
+                  <div class="state-layer"></div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- About -->
+        <div class="article">
+          <div class="about-card">
+            <h2 class="card-title title-medium">About</h2>
+
+            <p class="body-medium card-text">
+              A passionate software engineer with a strong background in
+              Information Tecknology.
+            </p>
+
+            <ul class="about-list">
+              <li class="list-item">
+                <span class="material-symbols-outlined" aria-hidden="true">
+                  location_on
+                </span>
+
+                <span class="label-medium">Ayodhya, SRMCEM LUCKNOW</span>
+              </li>
+
+              <li class="list-item">
+                <span class="material-symbols-outlined" aria-hidden="true">
+                  work
+                </span>
+
+                <span class="label-medium">Tech Background</span>
+              </li>
+
+              <li class="list-item">
+                <span class="material-symbols-outlined" aria-hidden="true">
+                  captive_portal
+                </span>
+
+                <a href=" https://x.com/1a_it70964?s=08 " class="label-medium"
+                    >https://x.com/1a_it70964?s=08</a>
+                
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <!-- Parimary tabs -->
+            <div class="primary-tabs">
+              <button class="tab-btn active" data-tab-btn="project">
+                <span class="tab-text title-small">Projects</span>
+
+                <div class="state-layer"></div>
+              </button>
+
+              <button class="tab-btn" data-tab-btn="resume">
+                <span class="tab-text title-small">Resume</span>
+
+                <div class="state-layer"></div>
+              </button>
+
+              <button class="tab-btn" data-tab-btn="contact">
+                <span class="tab-text title-small">Contact</span>
+
+                <div class="state-layer"></div>
+              </button>
+            </div>
+
+            <!-- Projects -->
+            <section
+              class="section tab-content active"
+              data-tab-content="project"
+            >
+              <div class="container">
+                <div class="project-list">
+                  <div class="card">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 334; --height: 180"
+                    >
+                      <img
+                        src="/assets/project-1.png"
+                        width="334"
+                        height="180"
+                        class="img-cover"
+                        alt="Pixstock - Stock Media App"
+                      /> 
+                    </figure>
+
+                    <div class="card-content">
+                      <span class="label-large card-subtitle">Web App</span>
+
+                      <h3 class="title-large card-title">
+                        Stock - Stock Media App
+                      </h3>
+                    </div>
+
+                    <a href="#" class="state-layer"></a>
+                  </div>
+
+                  <div class="card">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 334; --height: 180"
+                    >
+                      <img
+                        src="/assets/project-2.png"
+                        width="334"
+                        height="180"
+                        class="img-cover"
+                        alt="Cook.io - Recipe App"
+                      />
+                    </figure>
+
+                    <div class="card-content">
+                      <span class="label-large card-subtitle">Web App</span>
+
+                      <h3 class="title-large card-title">
+                        Cook.io - Recipe App
+                      </h3>
+                    </div>
+
+                    <a href="#" class="state-layer"></a>
+                  </div>
+
+                  <div class="card">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 334; --height: 180"
+                    >
+                      <img
+                        src="/assets/project-3.png"
+                        width="334"
+                        height="180"
+                        class="img-cover"
+                        alt="GitFinder - Github User Finder"
+                      />
+                    </figure>
+
+                    <div class="card-content">
+                      <span class="label-large card-subtitle">Web App</span>
+
+                      <h3 class="title-large card-title">
+                        GitFinder - Github User Finder
+                      </h3>
+                    </div>
+
+                    <a href="#" class="state-layer"></a>
+                  </div>
+
+                  <div class="card">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 334; --height: 180"
+                    >
+                      <img
+                        src="/assets/project-4.png"
+                        width="334"
+                        height="180"
+                        class="img-cover"
+                        alt="Weatherio - Live Weather App"
+                      />
+                    </figure>
+
+                    <div class="card-content">
+                      <span class="label-large card-subtitle">Web App</span>
+
+                      <h3 class="title-large card-title">
+                        Weatherio - Live Weather App
+                      </h3>
+                    </div>
+
+                    <a href="#" class="state-layer"></a>
+                  </div>
+
+                  <div class="card">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 334; --height: 180"
+                    >
+                      <img
+                        src="/assets/project-5.png"
+                        width="334"
+                        height="180"
+                        class="img-cover"
+                        alt="Tvflix - Spotify Clone 2.0"
+                      />
+                    </figure>
+
+                    <div class="card-content">
+                      <span class="label-large card-subtitle">Web App</span>
+
+                      <h3 class="title-large card-title">
+                        Spotify - Spotify Clone 2.0
+                      </h3>
+                    </div>
+
+                    <a href="#" class="state-layer"></a>
+                  </div>
+
+                  <div class="card">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 334; --height: 180"
+                    >
+                      <img
+                        src="/assets/project-6.png"
+                        width="334"
+                        height="180"
+                        class="img-cover"
+                        alt="Travelia - Travel Website"
+                      />
+                    </figure>
+
+                    <div class="card-content">
+                      <span class="label-large card-subtitle">Website</span>
+
+                      <h3 class="title-large card-title">
+                        Travelia - Travel Website
+                      </h3>
+                    </div>
+
+                    <a href="#" class="state-layer"></a>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <!-- Resume -->
+            <section
+              class="section tab-content resume-tab"
+              data-tab-content="resume"
+            >
+              <div class="container">
+                <h2 class="section-title title-small">Experience</h2>
+
+                <ul class="list">
+                  <li class="resume-item">
+                    <div class="resume-card">
+                      <p class="body-large">
+                        Software Engineer, Tech Background
+                      </p>
+
+                      <span class="label-medium card-subtitle"
+                        >2023 - Present</span
+                      >
+
+                      <span class="body-medium card-text">
+                         Attend College Internship Based on Web Development at IBM
+                         Attend College Internship Based on Machine learning at IBM
+                        
+                      
+                      </span>
+                    </div>
+                  </li>
+
+                  <li class="resume-item">
+                    <div class="resume-card">
+                      <p class="body-large">
+                        Software Developer Intern, ByteOasis Corporation
+                         Attend College Internship Based on Web Development at IBM
+                         Attend College Internship Based on Machine learning at IBM
+                      </p>
+
+                      <span class="label-medium card-subtitle"
+                        >2023 - 2024</span
+                      >
+
+                      <span class="body-medium card-text">
+                        Thrilled to have participated in HackKurte's hackathon at Bennet University! 
+                        It was an amazing opportunity to showcase my skills and learn from the best!
+                        Received Nominationto represent institution at Smart India Hackathon(SIH) 2023
+      
+                     </span>
+                    </div>
+                  </li>
+                </ul>
+
+                <h2 class="section-title title-small">Education</h2>
+
+                <ul class="list">
+                  <li class="resume-item">
+                    <div class="resume-card">
+                      <p class="body-large">
+                        B.Tech, Information Technology
+                        SRMCEM LUCKNOW
+                       
+                  
+                      </p>
+
+                      <span class="label-medium card-subtitle"
+                        >2024 - 2025</span
+                      >
+                    </div>
+                  </li>
+
+                  <li class="resume-item">
+                    <div class="resume-card">
+                      <p class="body-large">
+                        Relevant Coursework: Data Structures, Algorithms,
+                        Database Management
+                      </p>
+
+                      <span class="label-medium card-subtitle"
+                        >2024 - 2025</span
+                      >
+                    </div>
+                  </li>
+
+                  <li class="resume-item">
+                    <div class="resume-card">
+                      <p class="body-large">
+                        Bachelor of Tecknology Information Tecknology, AKTU Lucknow
+                        University ( Certification)Python
+                      </p>
+
+                      <span class="label-medium card-subtitle"
+                        >2022 - 2026</span
+                      >
+                    </div>
+                  </li>
+                </ul>
+
+                <h2 class="section-title title-small">
+                  Skills and Technologies
+                </h2>
+
+                <ul class="resume-bottom-list">
+                  <li class="resume-bottom-item">
+                    <img
+                      src="/assets/html5.svg"
+                      width="28"
+                      height="28"
+                      loading="lazy"
+                      alt="HTML5"
+                      class="icon"
+                    />
+                    <span class="label-medium">HTML5</span>
+                  </li>
+
+                  <li class="resume-bottom-item">
+                    <img
+                      src="/assets/css3.svg"
+                      width="28"
+                      height="28"
+                      loading="lazy"
+                      alt="CSS3"
+                      class="icon"
+                    />
+                    <span class="label-medium">CSS3</span>
+                  </li>
+
+                  <li class="resume-bottom-item">
+                    <img
+                      src="/assets/javascript.svg"
+                      width="28"
+                      height="28"
+                      loading="lazy"
+                      alt="JavaScript"
+                      class="icon"
+                    />
+                    <span class="label-medium">JavaScript</span>
+                  </li>
+
+                  <li class="resume-bottom-item">
+                    <img
+                      src="/assets/react.js.svg"
+                      width="28"
+                      height="28"
+                      loading="lazy"
+                      alt="React.js"
+                      class="icon"
+                    />
+                    <span class="label-medium">React.js</span>
+                  </li>
+
+                  <li class="resume-bottom-item">
+                    <img
+                      src="/assets/node.js.svg"
+                      width="28"
+                      height="28"
+                      loading="lazy"
+                      alt="Node.js"
+                      class="icon"
+                    />
+                    <span class="label-medium">Node.js</span>
+                  </li>
+
+                  <li class="resume-bottom-item">
+                    <img
+                      src="/assets/github.svg"
+                      width="28"
+                      height="28"
+                      loading="lazy"
+                      alt="GitHub"
+                      class="icon"
+                    />
+                    <span class="label-medium">GitHub</span>
+                  </li>
+
+                  <li class="resume-bottom-item">
+                    <img
+                      src="/assets/mongoDB.svg"
+                      width="28"
+                      height="28"
+                      loading="lazy"
+                      alt="MongoDB"
+                      class="icon"
+                    />
+                    <span class="label-medium">MongoDB</span>
+                  </li>
+
+                  <li class="resume-bottom-item">
+                    <img
+                      src="/assets/VS_code.svg"
+                      width="28"
+                      height="28"
+                      loading="lazy"
+                      alt="VS Code"
+                      class="icon"
+                    />
+                    <span class="label-medium">VS Code</span>
+                  </li>
+                </ul>
+              </div>
+            </section>
+
+            <!-- contact Us -->
+            <section
+              class="section tab-content contact-tab"
+              data-tab-content="contact"
+            >
+              <div class="container">
+                <div class="contact-info">
+                  <h4 class="section-title title-small">Contact Info</h4>
+
+                  <ul class="contact-info-list">
+                    <li class="contact-info-item">
+                      <div class="icon-box">
+                        <span
+                          class="material-symbols-outlined"
+                          aria-hidden="true"
+                        >
+                          mail
+                        </span>
+                      </div>
+
+                      <div class="info-content">
+                        <p class="label-small info-title">Mail Us</p>
+
+                        <a
+                          href="mailto:amishaverma620@gmail.com"
+                          class="label-small info-text"
+                          >amishaverma620@gmail.com</a
+                        >
+
+                        <a
+                          href="mailto:amishaverma620@gmail.com"
+                          class="label-small info-text"
+                          >itamishapatel620@gmail.com</a
+                        >
+                      </div>
+                    </li>
+
+                    <li class="contact-info-item">
+                      <div class="icon-box">
+                        <span
+                          class="material-symbols-outlined"
+                          aria-hidden="true"
+                        >
+                          call
+                        </span>
+                      </div>
+
+                      <div class="info-content">
+                        <p class="label-small info-title">Contact Us</p>
+
+                        <a
+                          href="tel:+918810952911"
+                          class="label-small info-text"
+                          >+918810952911</a
+                        >
+
+                        <a
+                          href="tel:+918810952911"
+                          class="label-small info-text"
+                          >+918810952911</a
+                        >
+                      </div>
+                    </li>
+
+                    <li class="contact-info-item">
+                      <div class="icon-box">
+                        <span
+                          class="material-symbols-outlined"
+                          aria-hidden="true"
+                        >
+                          location_on
+                        </span>
+                      </div>
+
+                      <div class="info-content">
+                        <p class="label-small info-title">Address</p>
+
+                        <a href="#" class="label-small info-text">
+                          IT Amisha Verma, SRMCEM LUCKNOW 226028, India utter
+                        </a>
+                      </div>
+                    </li>
+                  </ul>
+
+                  <h4 class="title-small">Social Info</h4>
+
+                  <div class="social-list">
+                    <a href="#" class="social-item">
+                      <i class="bx bxl-twitter"></i>
+                    </a>
+
+                    <a href="#" class="social-item">
+                      <i class="bx bxl-github"></i>
+                    </a>
+
+                    <a href="#" class="social-item">
+                      <i class="bx bxl-instagram"></i>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="contact-form">
+                  <h3 class="title-large">Let’s Work Together.</h3>
+
+                  <form action="" method="post" class="input-wrapper">
+                    <input
+                      type="text"
+                      name="name"
+                      placeholder="Name*"
+                      required
+                      class="input-field"
+                    />
+
+                    <input
+                      type="email"
+                      name="email"
+                      placeholder="Email*"
+                      required
+                      class="input-field"
+                    />
+
+                    <input
+                      type="text"
+                      name="subject"
+                      placeholder="Subject"
+                      class="input-field"
+                    />
+
+                    <textarea
+                      name="message"
+                      placeholder="Message"
+                      required
+                      class="textarea"
+                    ></textarea>
+
+                    <button class="btn" type="submit">
+                      <span class="label-large">Send Message</span>
+
+                      <div class="state-layer"></div>
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <!-- Footer -->
+     <footer class="footer">
+      <div class="container">
+
+        <p class="body-medium">
+         Writecode &copy; 2025. All right reserved by Coding Amisha Verma
+        </p>
+      </div>
+     </footer>
+
+    <!-- custom js link -->
+    <script src="/js/script.js"></script>
+  </body>
+</html>
